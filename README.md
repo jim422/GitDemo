@@ -5,6 +5,7 @@ git add <file> (把工作区的代码提交到暂存区)
 git reset HEAD <file> (取消暂存的文件)
 
 git commit -m 'message' (把暂存区的代码提交到本地库)
+git reset --hard <commit_id> (重置当前的 HEAD 到一个指定的状态。直接删除该状态后续的所有提交（就像没提交过一样），日志上表现为丢弃对应 commit id 后的所有日志)
 
 git push origin <分支名> (将本地库的代码推送到远程服务器上)
 
