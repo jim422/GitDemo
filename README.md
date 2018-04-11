@@ -18,3 +18,5 @@ git merge <分支名> 合并代码
 git merge --no-ff (no fast-forward merge 强行关闭fast-forward方式)
 
 git merge --squash 分支名 (git中将多次commit合并为一次commit)
+
+git stash(“‘储藏”“可以获取你工作目录的中间状态——也就是你修改过的被追踪的文件和暂存的变更——并将它保存到一个未完结变更的堆栈中，随时可以重新应用)
