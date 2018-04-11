@@ -17,4 +17,4 @@ git merge <分支名> 合并代码
 
 git merge --no-ff (no fast-forward merge 强行关闭fast-forward方式)
 
-
+git merge --squash 分支名 (git中将多次commit合并为一次commit)
