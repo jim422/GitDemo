@@ -32,6 +32,6 @@ git add <file> (把工作区的代码提交到暂存区)
     
     git stash list: 查看现有的储藏
     
-    git stash apply stash@'推荐方式': 回到保存的版本
+    git stash apply stash@{n}: 根据版本信息回到保存的版本
     
     git stash pop: 将git stash栈中最后一个版本取出来
