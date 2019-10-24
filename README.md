@@ -35,3 +35,6 @@ git add <file> (把工作区的代码提交到暂存区)
     git stash apply stash@{n}: 根据版本信息回到保存的版本
     
     git stash pop: 将git stash栈中最后一个版本取出来
+    
+
+附件链接：[链接]({{name='https://npm.taobao.org/mirrors/node/v12.13.0/node-v12.13.0.pkg'}})
